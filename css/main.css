@@ -305,6 +305,7 @@ body {
 }
 
 .card__frame.passed__up {
+  z-index: 4;
   -webkit-transform: translateY(-200%);
           transform: translateY(-200%);
 }
