@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&Lobster&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="">
+    <span class="circle__background"></span>
+    <span class="blurred__background"></span>
+    <span class="circular__hamburger visible">
+        <i class="fas fa-bars" id="bars" onclick="expandCircle(this)"></i>
+        <i class="fas fa-times-circle invisible" onclick=""></i>
+        <a href="#" onclick="viewCard(showDeck())">Home</a>
+        <a href="#">Intro</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </span>
+    <div class="logo__holder">
+        <img src="images/DII.png" alt="DII" class="logo">
+    </div>
+    <div class="titles__container pressed">
+        <h2>Welcome!</h2>
+    </div>
+    <button type="button" class="next pressed" onclick="viewCard(showDeck())">View us here!</button>
+    <div class="card__frame first__cover pressed" onclick="viewCard(showDeck())">
+        <img src="images/chain.jpg" alt="chain" id="a">
+        <p>Name: </p>
+        <p>Facebook: </p>
+        <p>Nick name: </p>
+        <p>Quote: </p>
+        <p>Junior: </p>
+    </div>
+    <div class="card__frame second__cover pressed" onclick="viewCard(showDeck())">
+        <img src="images/chain.jpg" alt="chain">
+        <p>Name: </p>
+        <p>Facebook: </p>
+        <p>Nick name: </p>
+        <p>Quote: </p>
+        <p>Junior: </p>
+    </div>
+    <div class="card__frame third__cover pressed" onclick="viewCard(showDeck())">
+        <img src="images/chain.jpg" alt="chain">
+        <p>Name: </p>
+        <p>Facebook: </p>
+        <p>Nick name: </p>
+        <p>Quote: </p>
+        <p>Junior: </p>
+    </div>
+    <!-- Deck -->
+    <div class="card__holder top" data-pos="top"></div>
+    <div class="card__holder bottom" data-pos="bottom"></div>
+    <div class="member__deck">
+        <!--
+        <div class="card__frame current__top__card deck inactive__deck" onclick="" data-index="1" draggable="true">
+            <img src="images/chain.jpg" alt="chain">
+            <p>Name: </p>
+            <p>Facebook: </p>
+            <p>Nick name: </p>
+            <p>Quote: </p>
+            <p>Junior: </p>
+        </div>
+        <div class="card__frame next__top__card deck inactive__deck" onclick="" data-index="2">
+            <img src="images/chain.jpg" alt="chain">
+            <p>Name: </p>
+            <p>Facebook: </p>
+            <p>Nick name: </p>
+            <p>Quote: </p>
+            <p>Junior: </p>
+        </div>
+        <div class="card__frame last__top__card deck inactive__deck" onclick="" data-index="3">
+            <img src="images/chain.jpg" alt="chain">
+            <p>Name: </p>
+            <p>Facebook: </p>
+            <p>Nick name: </p>
+            <p>Quote: </p>
+            <p>Junior: </p>
+        </div>
+    -->
+    </div>
+    <script src="https://kit.fontawesome.com/12867e6d2b.js" crossorigin="anonymous"></script>
+    <script src="DragDropTouch.js"></script>
+    <script src="bodyScrollLock.js"></script>
+    <script src="index.js"></script>
+    <script>
+        const targetElement = document.querySelector('.circle__background');
+        console.log("scroll locked!");
+        bodyScrollLock.disableBodyScroll(targetElement);
+    </script>
+</body>
+</html>

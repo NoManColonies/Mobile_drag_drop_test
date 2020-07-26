@@ -1,0 +1,50 @@
+[
+    { "tName": "กรวิชญ์ วิไลรัตน์", "fName": "korawit wilairat", "path": "images/ice.jpg", "quote": ".", "alt": "ไอซ์", "junior": "."
+    },
+    { "tName": "ก้องภพ ธนรัตน์ศิริกุล", "fName": "Katsu Miyajima", "path": "images/keng.jpg", "quote": "รูปกูอย่างเหี้ย555", "alt": "เก่ง", "junior": "."
+    },
+    { "tName": "จักร์ภูริณัท เจริญเดชาวงศ์", "fName": "Wake Up", "path": "images/kla.jpg", "quote": ".", "alt": "กล้า", "junior": "."
+    },
+    { "tName": "ชาญชล ทรัพย์ศิริ", "fName": "Boat Charnchon", "path": "images/boatj.jpg", "quote": ".", "alt": "โบ๊ท", "junior": "."
+    },
+    { "tName": "ธาริณี หลวงกอง", "fName": "Toey Talinee", "path": "images/toeyT.jpg", "quote": "สีเขียว", "alt": "เตย", "junior": "."
+    },
+    { "tName": "ธีระพัฒน์ แซ่ตั้ง", "fName": "Doge Thiraphat", "path": "images/pond.jpg", "quote": "You shall not pass.", "alt": "ปอนด์", "junior": "."
+    },
+    { "tName": "นพราช แก้วใส", "fName": "Kaow nopparat", "path": "images/9.jpg", "quote": "9", "alt": "เก้า", "junior": "."
+    },
+    { "tName": "นราธิป สุผาคอง", "fName": "Naratip Supakong", "path": "images/new.jpg", "quote": "สวัสดีครับ  !!!!!!", "alt": "นิว", "junior": "."
+    },
+    { "tName": "นริศสา กรสังข์", "fName": "Narisza Kornsanka", "path": "images/kt.jpg", "quote": "อยากกินวิงซ์แซ่บ", "alt": "กระตุ้น", "junior": "."
+    },
+    { "tName": "ปองพล พันตารักษ์", "fName": "Pongpon pantarak", "path": "images/act.jpeg", "quote": "ระฆังดังเพราะคนตี เขียนได้แต่ภาษาซี จาว่าไม่มี", "alt": "แอ๊ค", "junior": "."
+    },
+    { "tName": "พลวัต ปัญสุวรรณ์", "fName": "เชน  พลวัต", "path": "images/chain.jpg", "quote": "ไม่มีอะไรในดงหญ้า แต่ถ้าพี่กล้าเดี๋ยวผมเปิด", "alt": "เชน", "junior": "."
+    },
+    { "tName": "ภาณุวัฒน์ มูลคำ", "fName": "Fo'fun Fo Ai Wo", "path": "images/fiew.jpg", "quote": ".", "alt": "ฟิว", "junior": "."
+    },
+    { "tName": "รมิตา คหาปนะ", "fName": "Ramita Kahapana", "path": "images/sa.jpeg", "quote": "ทรงโจรนะจ้ะ", "alt": "ซาร่อ", "junior": "."
+    },
+    { "tName": "รัฐภูมิ อิกำเหนิด", "fName": "Bbest Best", "path": "images/best.jpg", "quote": ".", "alt": "เบสท์", "junior": "."
+    },
+    { "tName": "วรัญญู คงชัย", "fName": "Xeemusx's Grapher", "path": "images/boatT.jpg", "quote": "เดี๋ยวก็รู้", "alt": "โบ๊ท", "junior": "."
+    },
+    { "tName": "วราลักษณ์ คำน้อย", "fName": "Fah Walaluck", "path": "images/fah.jpg", "quote": ".", "alt": "ฟ้า", "junior": "."
+    },
+    { "tName": "วีระพันธ์ ลาน้อย", "fName": "Vee victorez", "path": "images/vee.jpg", "quote": "เน้นเข้าเรียนไม่เน้นเข้าใจ", "alt": "วี", "junior": "."
+    },
+    { "tName": "ศศิกานต์ บุญมาถา", "fName": "Baitoey Sasikrang", "path": "images/toeyS.jpg", "quote": ".", "alt": "ใบเตย", "junior": "."
+    },
+    { "tName": "ศุภวิชญ์ ศรีปุงวิวัฒน์", "fName": "Supawit Jeng", "path": "images/jeng.jpg", "quote": ".", "alt": "เจ๋ง", "junior": "."
+    },
+    { "tName": "สหัสวรรษ วิโรจน์เพชร", "fName": "Sahatsawat Friend", "path": "images/friend.jpg", "quote": "หน้าตาทรงโจร แต่อ่อนโยนต่อจุดซ่อนเร้น", "alt": "เฟรนด์", "junior": "."
+    },
+    { "tName": "สุภทัต สิงห์คำฟู", "fName": "Arm Supatat", "path": "images/arm.jpg", "quote": ".", "alt": "อาร์ม", "junior": "."
+    },
+    { "tName": "สุรีย์พร คำซอน", "fName": "Ajarn Shilin", "path": "images/aj.jpg", "quote": "Jon Kuwada", "alt": "อาจารย์", "junior": "."
+    },
+    { "tName": "อติกันต์ กันนาง", "fName": "Atikan Kannang", "path": "images/pungpond.jpeg", "quote": "หล่อ รวย นิสัยดี โทษทีไม่ใช่ผม", "alt": "ปังปอนด์", "junior": "."
+    },
+    { "tName": "อธิคม เพชรธำรงกุล", "fName": "Atikom Jeff", "path": "images/jeff.jpg", "quote": "ถึงหน้าจะโหดแต่อยู่ในโหมดน่ารัก", "alt": "เจฟ", "junior": "."
+    }
+]
