@@ -59,14 +59,14 @@ const toggleMultipleClass = (element, classes) => {
 function expandCircle(element) {
     element.classList.add('invisible');
     element.parentElement.classList.add('expand');
+    let blurredBackground = document.querySelector('.blurred__background');
     setTimeout(() => {
         element.parentElement.addEventListener('click', closeMenu);
         element.nextElementSibling.addEventListener('click', closeMenu);
-    }, 100);
+        blurredBackground.addEventListener('click', closeMenu);
+    }, 500);
     element.nextElementSibling.classList.remove('invisible');
-    let blurredBackground = document.querySelector('.blurred__background');
     blurredBackground.classList.add('visible');
-    blurredBackground.addEventListener('click', closeMenu);
 }
 ;
 function closeMenu() {
