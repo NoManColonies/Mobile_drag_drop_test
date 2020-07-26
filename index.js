@@ -61,9 +61,9 @@ function expandCircle(element) {
     element.parentElement.classList.add('expand');
     let blurredBackground = document.querySelector('.blurred__background');
     setTimeout(() => {
-        element.parentElement.addEventListener('click', closeMenu);
-        element.nextElementSibling.addEventListener('click', closeMenu);
-        blurredBackground.addEventListener('click', closeMenu);
+        element.parentElement.addEventListener('touchstart', closeMenu);
+        element.nextElementSibling.addEventListener('touchstart', closeMenu);
+        blurredBackground.addEventListener('touchstart', closeMenu);
     }, 500);
     element.nextElementSibling.classList.remove('invisible');
     blurredBackground.classList.add('visible');
@@ -72,13 +72,13 @@ function expandCircle(element) {
 function closeMenu() {
     let menuTemplate = document.querySelector(".circular__hamburger");
     menuTemplate.classList.remove('expand');
-    menuTemplate.removeEventListener('click', closeMenu);
+    menuTemplate.removeEventListener('touchstart', closeMenu);
     menuTemplate.children[0].classList.remove('invisible');
     menuTemplate.children[1].classList.add('invisible');
-    menuTemplate.children[1].removeEventListener('click', closeMenu);
+    menuTemplate.children[1].removeEventListener('touchstart', closeMenu);
     let blurredBackground = document.querySelector('.blurred__background');
     blurredBackground.classList.remove('visible');
-    blurredBackground.removeEventListener('click', closeMenu);
+    blurredBackground.removeEventListener('touchstart', closeMenu);
 }
 class CardStack {
     constructor(cardData) {
