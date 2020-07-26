@@ -240,8 +240,8 @@ body {
   position: absolute;
   -webkit-box-shadow: 0 0 10px #B8765C;
           box-shadow: 0 0 10px #B8765C;
-  -webkit-transition: all ease 300ms;
-  transition: all ease 300ms;
+  -webkit-transition: all ease 600ms;
+  transition: all ease 600ms;
 }
 
 .card__frame img {
