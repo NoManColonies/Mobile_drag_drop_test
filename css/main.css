@@ -47,6 +47,7 @@ body {
   -webkit-transition: all ease 300ms;
   transition: all ease 300ms;
   z-index: 999;
+  cursor: pointer;
 }
 
 .blurred__background.visible {
@@ -81,6 +82,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 .circular__hamburger a {
